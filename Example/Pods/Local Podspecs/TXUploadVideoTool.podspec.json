@@ -1,0 +1,27 @@
+{
+  "name": "TXUploadVideoTool",
+  "version": "0.1.0",
+  "summary": "A short description of TXUploadVideoTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PangTF/TXUploadVideoTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PangTF": "tengfeipang@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/PangTF/TXUploadVideoTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TXUploadVideoTool/Classes/**/*",
+  "dependencies": {
+    "QCloudQuic/Slim": [
+      "6.0.5"
+    ]
+  }
+}

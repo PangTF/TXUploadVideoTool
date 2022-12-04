@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TXUploadVideoTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TXUploadVideoTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TXUploadVideoTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TXUploadVideoTool: 4abd50ada9eab2abdc28b21a3b4c3ed3da5ff22e
+
+PODFILE CHECKSUM: b5ce132e247d1f252df3433060a738cfb9198c70
+
+COCOAPODS: 1.11.3

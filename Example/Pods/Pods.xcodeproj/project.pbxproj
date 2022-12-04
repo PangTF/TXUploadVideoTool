@@ -1,0 +1,1148 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0297E6FA68228C2404E9DF5B4F29A0FE /* TVCReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0076C1E51D9BF89839114F9C813E1174 /* TVCReport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06BE350489F06E4ED51FD8A225E18BAC /* TVCHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B2F31C8B8FEE6E3EC0BCF858A06434 /* TVCHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CA1D703401B044965A3111106EAEBCB /* Pods-TXUploadVideoTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8785B5A50E10832F1FB43FE7474721C8 /* Pods-TXUploadVideoTool_Example-dummy.m */; };
+		1083FA1E5A63E6820A4AEFE0B7695F2D /* TXUGCPublishUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E4BA5048F2A09F6097C695D19A446B /* TXUGCPublishUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17EBC84CD7F66255EFE6113F54638BF9 /* TVCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 71369854269D05A1E01FB659219429F0 /* TVCUtils.m */; };
+		18F41A3F5EB8CCB421E893AF3F241243 /* TVCCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 821B58B2E874DF5D8648D0248122B1C8 /* TVCCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C90DE48EFF5E7CD8ECBA2BDC88BF7AF /* TVCClientInner.h in Headers */ = {isa = PBXBuildFile; fileRef = DF69AC29F51FD1C62BE0F0FCBCDA5B6C /* TVCClientInner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22533CDACFBDDC7C60CEC010E694938F /* TXUGCPublishOptCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44390CA9EF1567C93D63551DA8EE2D /* TXUGCPublishOptCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22622C69E669A11614A1AE90F0BDA55C /* TXUGCPublish.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DF21DB8CEE722B6AF138077999A558 /* TXUGCPublish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288F154FCBEB50850417FEE11FE6F2E9 /* TXUGCPublishTypeDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 6137D032CCECCD71D253359C944144FB /* TXUGCPublishTypeDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		2EFA9B72B3CF948BACB3D949CA615EBE /* Pods-TXUploadVideoTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4E6403772B9B804DDBE047096DD322 /* Pods-TXUploadVideoTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		361EF84E43FB0C7C8D9A7AC987E7ABA0 /* TVCClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F652F8C7480E0A6FAA2FF5C8D520B3C /* TVCClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4497D609698622E4A7D7D7E9A4086313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		468E20D852B7BA090CC91CBDD15317AC /* Pods-TXUploadVideoTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EAEEE70D023B61F5C7A89EB10030390 /* Pods-TXUploadVideoTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		5D4F521C45674AC6882421D93A1D40F2 /* AppLocalized.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E855623E7425505FA70617A3D7D6E6 /* AppLocalized.m */; };
+		5E3ECF861EAA4BF9DF7F63A33697F190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		60DA72432E442FAD3CA6814F477800B8 /* TXUGCPublishOptCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AEC509625114E7C9A6C81E3C0DB16 /* TXUGCPublishOptCenter.m */; };
+		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668DB8FF67256F7FF11D8C0545D13B1A /* TXUGCPublishUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD17D0808B3327F46AE91A61315F522 /* TXUGCPublishUtil.m */; };
+		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		8356354A13F9633D7FFC38DF800CB015 /* TVCHttpMessageURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E1CBDB6687E5C2FE2B0A7494C51884 /* TVCHttpMessageURLProtocol.m */; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8EF7EB0C9F0313BFC4971E6AF8F5BBAE /* TVCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D172687A964ADEB16DBDD4CF36C40232 /* TVCClient.m */; };
+		911171411F96D34AD37A8AEB9A53EF1A /* QuicClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC77FAB6B968421440BF3DF228C51E /* QuicClient.m */; };
+		91562D1F99E0655453BF6B1FA6ACDD33 /* TXUGCPublishListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 5435F9679658CB749D31142AC28536A4 /* TXUGCPublishListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		925CDFFDCC8D27311CEFACA21A7964A8 /* TXUploadVideoTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9219B38269FAF80F7F5E87902A04812 /* TXUploadVideoTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		AD3DB6600F5C5614349F3BF419232FE6 /* TXUGCPublish.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6A7302E976F7EB1B638AC61AEB7FE /* TXUGCPublish.m */; };
+		B1567872C4D88675EC0B6847CF54E551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		B4363BB424DCBE9ACC17295D272EF892 /* QuicClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 644BF26CD61EB7D39EAE525D530F8B23 /* QuicClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		B71A9FC9A69094F8541A27786D998AAF /* TVCHttpMessageURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9B4D66F20EFAF6DBDD12C2412E7096 /* TVCHttpMessageURLProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF0CCA00E720B4CF07BA3F55B02FE83B /* Pods-TXUploadVideoTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1C81D65AA568329B4C1AC9455E709 /* Pods-TXUploadVideoTool_Tests-dummy.m */; };
+		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		CC050BF238258B98E3256E9F3BF224C7 /* TVCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC032487BB24C70C416AED0881C7E0 /* TVCCommon.m */; };
+		CE089416FE245EEE44C4EE2A914D258F /* AppLocalized.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BA12704863B12CC99BB7A01DC74612 /* AppLocalized.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE10987139E98521612E394B3DF704CF /* TVCUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A3A881ABC71F4144861DB13921F28F9 /* TVCUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC9EFA2A0D7510CEC93FD6A48BD6A1B8 /* TVCClientInner.m in Sources */ = {isa = PBXBuildFile; fileRef = F09E7EDE959C63AD3411DC851C227405 /* TVCClientInner.m */; };
+		E176D70DCF7C0D07D1B48662D3F5F115 /* TXUploadVideoTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C9FE1DEA010A113D81AA4A530F885 /* TXUploadVideoTool-dummy.m */; };
+		F01778877E7833F821DB1285079B6DCB /* TVCReport.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8232FE10909927C05EAA9305B1B36A /* TVCReport.m */; };
+		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		652F3C77B28CA745D43ED1676E8DB27E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CBA7D59FBDE86FEE51F9E0D7C281C1C;
+			remoteInfo = "Pods-TXUploadVideoTool_Example";
+		};
+		73F8A6A10E2404AFE9622B93F6364C29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C8E73195FC31441936A525E29DA769;
+			remoteInfo = TXUploadVideoTool;
+		};
+		A418F4FD459F51BC3998CB3D7BEB1181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0076C1E51D9BF89839114F9C813E1174 /* TVCReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TVCReport.h; path = TXUploadVideoTool/Classes/TVCReport.h; sourceTree = "<group>"; };
+		07EA6BA0776D38278B39CE3A5073D330 /* Pods-TXUploadVideoTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXUploadVideoTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		1347D26F0A9959EAA22C7584DDA6EFF7 /* TXUploadVideoTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXUploadVideoTool-prefix.pch"; sourceTree = "<group>"; };
+		19E1CBDB6687E5C2FE2B0A7494C51884 /* TVCHttpMessageURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TVCHttpMessageURLProtocol.m; path = TXUploadVideoTool/Classes/TVCHttpMessageURLProtocol.m; sourceTree = "<group>"; };
+		1A9B4D66F20EFAF6DBDD12C2412E7096 /* TVCHttpMessageURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TVCHttpMessageURLProtocol.h; path = TXUploadVideoTool/Classes/TVCHttpMessageURLProtocol.h; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1DFC77FAB6B968421440BF3DF228C51E /* QuicClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuicClient.m; path = TXUploadVideoTool/Classes/QuicClient.m; sourceTree = "<group>"; };
+		1EAEEE70D023B61F5C7A89EB10030390 /* Pods-TXUploadVideoTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXUploadVideoTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1F44390CA9EF1567C93D63551DA8EE2D /* TXUGCPublishOptCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXUGCPublishOptCenter.h; path = TXUploadVideoTool/Classes/TXUGCPublishOptCenter.h; sourceTree = "<group>"; };
+		1F9AEC509625114E7C9A6C81E3C0DB16 /* TXUGCPublishOptCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXUGCPublishOptCenter.m; path = TXUploadVideoTool/Classes/TXUGCPublishOptCenter.m; sourceTree = "<group>"; };
+		2163EEAC74E60127A52F0697BB152E89 /* Pods-TXUploadVideoTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXUploadVideoTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		259C9FE1DEA010A113D81AA4A530F885 /* TXUploadVideoTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TXUploadVideoTool-dummy.m"; sourceTree = "<group>"; };
+		26E3D493F1FC879DB5DFB47286E3596D /* Pods-TXUploadVideoTool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TXUploadVideoTool_Tests"; path = Pods_TXUploadVideoTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		28E4BA5048F2A09F6097C695D19A446B /* TXUGCPublishUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXUGCPublishUtil.h; path = TXUploadVideoTool/Classes/TXUGCPublishUtil.h; sourceTree = "<group>"; };
+		2A3A881ABC71F4144861DB13921F28F9 /* TVCUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TVCUtils.h; path = TXUploadVideoTool/Classes/TVCUtils.h; sourceTree = "<group>"; };
+		2F93B16893796005485C4B436BC3FEF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		41EDE4072B3BFF1D631F68ECF91BB0D5 /* TXUploadVideoTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TXUploadVideoTool-Info.plist"; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		45DF21DB8CEE722B6AF138077999A558 /* TXUGCPublish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXUGCPublish.h; sourceTree = "<group>"; };
+		4BD96CACDD53D96F6666CCE4D275382F /* TXUploadVideoTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXUploadVideoTool.release.xcconfig; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		5435F9679658CB749D31142AC28536A4 /* TXUGCPublishListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXUGCPublishListener.h; sourceTree = "<group>"; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F652F8C7480E0A6FAA2FF5C8D520B3C /* TVCClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TVCClient.h; path = TXUploadVideoTool/Classes/TVCClient.h; sourceTree = "<group>"; };
+		6137D032CCECCD71D253359C944144FB /* TXUGCPublishTypeDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXUGCPublishTypeDef.h; sourceTree = "<group>"; };
+		644BF26CD61EB7D39EAE525D530F8B23 /* QuicClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuicClient.h; path = TXUploadVideoTool/Classes/QuicClient.h; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		663C4FB06B17B500AFDFF2586A6FDCEB /* Pods-TXUploadVideoTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXUploadVideoTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		66C000A016C0FD071D9C1F41E7493873 /* TXUploadVideoTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXUploadVideoTool.debug.xcconfig; sourceTree = "<group>"; };
+		69E855623E7425505FA70617A3D7D6E6 /* AppLocalized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppLocalized.m; path = TXUploadVideoTool/Classes/AppLocalized.m; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6DD1C81D65AA568329B4C1AC9455E709 /* Pods-TXUploadVideoTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXUploadVideoTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		71369854269D05A1E01FB659219429F0 /* TVCUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TVCUtils.m; path = TXUploadVideoTool/Classes/TVCUtils.m; sourceTree = "<group>"; };
+		783E2AFBD07604AA06698BCAA23F488D /* TXUploadVideoTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TXUploadVideoTool; path = TXUploadVideoTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7842CDFD47152F8509B9E3A0E4AAA384 /* Pods-TXUploadVideoTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXUploadVideoTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		78BA12704863B12CC99BB7A01DC74612 /* AppLocalized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppLocalized.h; path = TXUploadVideoTool/Classes/AppLocalized.h; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		821B58B2E874DF5D8648D0248122B1C8 /* TVCCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TVCCommon.h; path = TXUploadVideoTool/Classes/TVCCommon.h; sourceTree = "<group>"; };
+		8785B5A50E10832F1FB43FE7474721C8 /* Pods-TXUploadVideoTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXUploadVideoTool_Example-dummy.m"; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		88D92DCBD2ACF8C5656B65A232E94A54 /* Pods-TXUploadVideoTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TXUploadVideoTool_Example"; path = Pods_TXUploadVideoTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AEBE811DE6550A7B8C60328E04EC0A /* Pods-TXUploadVideoTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXUploadVideoTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		918A466875E19BA38B4A512142DE8810 /* TXUploadVideoTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TXUploadVideoTool.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9D198E54554117DF5AEBAE91C95126B0 /* Pods-TXUploadVideoTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXUploadVideoTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD17D0808B3327F46AE91A61315F522 /* TXUGCPublishUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXUGCPublishUtil.m; path = TXUploadVideoTool/Classes/TXUGCPublishUtil.m; sourceTree = "<group>"; };
+		A6F1084C57F70E83DAB4E37DE814902E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A8B2F31C8B8FEE6E3EC0BCF858A06434 /* TVCHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TVCHeader.h; path = TXUploadVideoTool/Classes/TVCHeader.h; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B7FF68A8CA0981695EF6C2AF8F14ADEF /* Pods-TXUploadVideoTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXUploadVideoTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB07827914C0C867C8A9CC7BE7D15F19 /* Pods-TXUploadVideoTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXUploadVideoTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BBB6BC557A0409734C7FB3513E0C97BE /* Pods-TXUploadVideoTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXUploadVideoTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA8232FE10909927C05EAA9305B1B36A /* TVCReport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TVCReport.m; path = TXUploadVideoTool/Classes/TVCReport.m; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CEA6A7302E976F7EB1B638AC61AEB7FE /* TXUGCPublish.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXUGCPublish.m; path = TXUploadVideoTool/Classes/TXUGCPublish.m; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D172687A964ADEB16DBDD4CF36C40232 /* TVCClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TVCClient.m; path = TXUploadVideoTool/Classes/TVCClient.m; sourceTree = "<group>"; };
+		D385B0FF832CEC90829CB83CB172DAD5 /* Pods-TXUploadVideoTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXUploadVideoTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DBFC032487BB24C70C416AED0881C7E0 /* TVCCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TVCCommon.m; path = TXUploadVideoTool/Classes/TVCCommon.m; sourceTree = "<group>"; };
+		DF69AC29F51FD1C62BE0F0FCBCDA5B6C /* TVCClientInner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TVCClientInner.h; path = TXUploadVideoTool/Classes/TVCClientInner.h; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E765CB3F23FF4DE50CAC8F266AC7358E /* Pods-TXUploadVideoTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TXUploadVideoTool_Example.modulemap"; sourceTree = "<group>"; };
+		E9219B38269FAF80F7F5E87902A04812 /* TXUploadVideoTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXUploadVideoTool-umbrella.h"; sourceTree = "<group>"; };
+		E96D18DBD1C3B0621F489A8FDD51F609 /* TXUploadVideoTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TXUploadVideoTool.modulemap; sourceTree = "<group>"; };
+		EF4E6403772B9B804DDBE047096DD322 /* Pods-TXUploadVideoTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXUploadVideoTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		F043C831363E65F4E2521F35015E6C41 /* Pods-TXUploadVideoTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXUploadVideoTool_Example-Info.plist"; sourceTree = "<group>"; };
+		F09E7EDE959C63AD3411DC851C227405 /* TVCClientInner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TVCClientInner.m; path = TXUploadVideoTool/Classes/TVCClientInner.m; sourceTree = "<group>"; };
+		F5690368C1BECEDB5C6AFE2CAF37C24E /* Pods-TXUploadVideoTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TXUploadVideoTool_Tests.modulemap"; sourceTree = "<group>"; };
+		FB216964E067BE3CB2C0A2D9E915B497 /* Pods-TXUploadVideoTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXUploadVideoTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4EAF5B9B26715B3723A330D0093052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3ECF861EAA4BF9DF7F63A33697F190 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6F87BE8573C8F4B6E692D3BD094FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4497D609698622E4A7D7D7E9A4086313 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC6E0698FB50844EDB6D1BBA7D90006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1567872C4D88675EC0B6847CF54E551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
+				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
+				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
+				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C2B953DEE9BDAA307DBF96E09CF8EF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61341DF42FD06AED6CE7841E5B30D951 /* TXUploadVideoTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		12E995893647BF1C8382DA46B93CCC6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E96D18DBD1C3B0621F489A8FDD51F609 /* TXUploadVideoTool.modulemap */,
+				259C9FE1DEA010A113D81AA4A530F885 /* TXUploadVideoTool-dummy.m */,
+				41EDE4072B3BFF1D631F68ECF91BB0D5 /* TXUploadVideoTool-Info.plist */,
+				1347D26F0A9959EAA22C7584DDA6EFF7 /* TXUploadVideoTool-prefix.pch */,
+				E9219B38269FAF80F7F5E87902A04812 /* TXUploadVideoTool-umbrella.h */,
+				66C000A016C0FD071D9C1F41E7493873 /* TXUploadVideoTool.debug.xcconfig */,
+				4BD96CACDD53D96F6666CCE4D275382F /* TXUploadVideoTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TXUploadVideoTool";
+			sourceTree = "<group>";
+		};
+		443E21DD437D462348B87D0CFD512CC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				88D92DCBD2ACF8C5656B65A232E94A54 /* Pods-TXUploadVideoTool_Example */,
+				26E3D493F1FC879DB5DFB47286E3596D /* Pods-TXUploadVideoTool_Tests */,
+				783E2AFBD07604AA06698BCAA23F488D /* TXUploadVideoTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		61341DF42FD06AED6CE7841E5B30D951 /* TXUploadVideoTool */ = {
+			isa = PBXGroup;
+			children = (
+				78BA12704863B12CC99BB7A01DC74612 /* AppLocalized.h */,
+				69E855623E7425505FA70617A3D7D6E6 /* AppLocalized.m */,
+				644BF26CD61EB7D39EAE525D530F8B23 /* QuicClient.h */,
+				1DFC77FAB6B968421440BF3DF228C51E /* QuicClient.m */,
+				5F652F8C7480E0A6FAA2FF5C8D520B3C /* TVCClient.h */,
+				D172687A964ADEB16DBDD4CF36C40232 /* TVCClient.m */,
+				DF69AC29F51FD1C62BE0F0FCBCDA5B6C /* TVCClientInner.h */,
+				F09E7EDE959C63AD3411DC851C227405 /* TVCClientInner.m */,
+				821B58B2E874DF5D8648D0248122B1C8 /* TVCCommon.h */,
+				DBFC032487BB24C70C416AED0881C7E0 /* TVCCommon.m */,
+				A8B2F31C8B8FEE6E3EC0BCF858A06434 /* TVCHeader.h */,
+				1A9B4D66F20EFAF6DBDD12C2412E7096 /* TVCHttpMessageURLProtocol.h */,
+				19E1CBDB6687E5C2FE2B0A7494C51884 /* TVCHttpMessageURLProtocol.m */,
+				0076C1E51D9BF89839114F9C813E1174 /* TVCReport.h */,
+				CA8232FE10909927C05EAA9305B1B36A /* TVCReport.m */,
+				2A3A881ABC71F4144861DB13921F28F9 /* TVCUtils.h */,
+				71369854269D05A1E01FB659219429F0 /* TVCUtils.m */,
+				CEA6A7302E976F7EB1B638AC61AEB7FE /* TXUGCPublish.m */,
+				1F44390CA9EF1567C93D63551DA8EE2D /* TXUGCPublishOptCenter.h */,
+				1F9AEC509625114E7C9A6C81E3C0DB16 /* TXUGCPublishOptCenter.m */,
+				28E4BA5048F2A09F6097C695D19A446B /* TXUGCPublishUtil.h */,
+				9FD17D0808B3327F46AE91A61315F522 /* TXUGCPublishUtil.m */,
+				799B9B0388E22417DD1E03D968D3B9BB /* include */,
+				D17A7E99A113DB0783F1C397967D5923 /* Pod */,
+				12E995893647BF1C8382DA46B93CCC6C /* Support Files */,
+			);
+			name = TXUploadVideoTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		799B9B0388E22417DD1E03D968D3B9BB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				45DF21DB8CEE722B6AF138077999A558 /* TXUGCPublish.h */,
+				5435F9679658CB749D31142AC28536A4 /* TXUGCPublishListener.h */,
+				6137D032CCECCD71D253359C944144FB /* TXUGCPublishTypeDef.h */,
+			);
+			name = include;
+			path = TXUploadVideoTool/Classes/include;
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		A54292D5676E5AE71A87CDA6B474CA21 /* Pods-TXUploadVideoTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5690368C1BECEDB5C6AFE2CAF37C24E /* Pods-TXUploadVideoTool_Tests.modulemap */,
+				2163EEAC74E60127A52F0697BB152E89 /* Pods-TXUploadVideoTool_Tests-acknowledgements.markdown */,
+				B7FF68A8CA0981695EF6C2AF8F14ADEF /* Pods-TXUploadVideoTool_Tests-acknowledgements.plist */,
+				6DD1C81D65AA568329B4C1AC9455E709 /* Pods-TXUploadVideoTool_Tests-dummy.m */,
+				BB07827914C0C867C8A9CC7BE7D15F19 /* Pods-TXUploadVideoTool_Tests-frameworks.sh */,
+				FB216964E067BE3CB2C0A2D9E915B497 /* Pods-TXUploadVideoTool_Tests-Info.plist */,
+				1EAEEE70D023B61F5C7A89EB10030390 /* Pods-TXUploadVideoTool_Tests-umbrella.h */,
+				663C4FB06B17B500AFDFF2586A6FDCEB /* Pods-TXUploadVideoTool_Tests.debug.xcconfig */,
+				7842CDFD47152F8509B9E3A0E4AAA384 /* Pods-TXUploadVideoTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-TXUploadVideoTool_Tests";
+			path = "Target Support Files/Pods-TXUploadVideoTool_Tests";
+			sourceTree = "<group>";
+		};
+		ABB63B55A1F067839BF8F3E850E19142 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D031D7177958894835333845E19B8FF5 /* Pods-TXUploadVideoTool_Example */,
+				A54292D5676E5AE71A87CDA6B474CA21 /* Pods-TXUploadVideoTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				01C2B953DEE9BDAA307DBF96E09CF8EF /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				443E21DD437D462348B87D0CFD512CC5 /* Products */,
+				ABB63B55A1F067839BF8F3E850E19142 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D031D7177958894835333845E19B8FF5 /* Pods-TXUploadVideoTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E765CB3F23FF4DE50CAC8F266AC7358E /* Pods-TXUploadVideoTool_Example.modulemap */,
+				07EA6BA0776D38278B39CE3A5073D330 /* Pods-TXUploadVideoTool_Example-acknowledgements.markdown */,
+				D385B0FF832CEC90829CB83CB172DAD5 /* Pods-TXUploadVideoTool_Example-acknowledgements.plist */,
+				8785B5A50E10832F1FB43FE7474721C8 /* Pods-TXUploadVideoTool_Example-dummy.m */,
+				BBB6BC557A0409734C7FB3513E0C97BE /* Pods-TXUploadVideoTool_Example-frameworks.sh */,
+				F043C831363E65F4E2521F35015E6C41 /* Pods-TXUploadVideoTool_Example-Info.plist */,
+				EF4E6403772B9B804DDBE047096DD322 /* Pods-TXUploadVideoTool_Example-umbrella.h */,
+				89AEBE811DE6550A7B8C60328E04EC0A /* Pods-TXUploadVideoTool_Example.debug.xcconfig */,
+				9D198E54554117DF5AEBAE91C95126B0 /* Pods-TXUploadVideoTool_Example.release.xcconfig */,
+			);
+			name = "Pods-TXUploadVideoTool_Example";
+			path = "Target Support Files/Pods-TXUploadVideoTool_Example";
+			sourceTree = "<group>";
+		};
+		D17A7E99A113DB0783F1C397967D5923 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A6F1084C57F70E83DAB4E37DE814902E /* LICENSE */,
+				2F93B16893796005485C4B436BC3FEF5 /* README.md */,
+				918A466875E19BA38B4A512142DE8810 /* TXUploadVideoTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03840304FB04E3EB411DA4D7D1690DBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFA9B72B3CF948BACB3D949CA615EBE /* Pods-TXUploadVideoTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DCC68BB526DAA728BA0E73CF7638E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE089416FE245EEE44C4EE2A914D258F /* AppLocalized.h in Headers */,
+				B4363BB424DCBE9ACC17295D272EF892 /* QuicClient.h in Headers */,
+				361EF84E43FB0C7C8D9A7AC987E7ABA0 /* TVCClient.h in Headers */,
+				1C90DE48EFF5E7CD8ECBA2BDC88BF7AF /* TVCClientInner.h in Headers */,
+				18F41A3F5EB8CCB421E893AF3F241243 /* TVCCommon.h in Headers */,
+				06BE350489F06E4ED51FD8A225E18BAC /* TVCHeader.h in Headers */,
+				B71A9FC9A69094F8541A27786D998AAF /* TVCHttpMessageURLProtocol.h in Headers */,
+				0297E6FA68228C2404E9DF5B4F29A0FE /* TVCReport.h in Headers */,
+				CE10987139E98521612E394B3DF704CF /* TVCUtils.h in Headers */,
+				22622C69E669A11614A1AE90F0BDA55C /* TXUGCPublish.h in Headers */,
+				91562D1F99E0655453BF6B1FA6ACDD33 /* TXUGCPublishListener.h in Headers */,
+				22533CDACFBDDC7C60CEC010E694938F /* TXUGCPublishOptCenter.h in Headers */,
+				288F154FCBEB50850417FEE11FE6F2E9 /* TXUGCPublishTypeDef.h in Headers */,
+				1083FA1E5A63E6820A4AEFE0B7695F2D /* TXUGCPublishUtil.h in Headers */,
+				925CDFFDCC8D27311CEFACA21A7964A8 /* TXUploadVideoTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C702376613AD050901E6B9DF7B67854C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468E20D852B7BA090CC91CBDD15317AC /* Pods-TXUploadVideoTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
+				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
+				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
+				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
+				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
+				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
+				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3510C05CB6B1383A4A56771AFCD5A339 /* Pods-TXUploadVideoTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E659606633573E7F515ABC34D4895191 /* Build configuration list for PBXNativeTarget "Pods-TXUploadVideoTool_Tests" */;
+			buildPhases = (
+				C702376613AD050901E6B9DF7B67854C /* Headers */,
+				9D38A2C4F35AB7C36CF335D18240356B /* Sources */,
+				BBC6E0698FB50844EDB6D1BBA7D90006 /* Frameworks */,
+				AACE9ECB847DF41AC7A64470744876AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD9C7117699BB70A8C0E7331DB00BE91 /* PBXTargetDependency */,
+				2323DBBAC9484C840E99B773C5931855 /* PBXTargetDependency */,
+			);
+			name = "Pods-TXUploadVideoTool_Tests";
+			productName = Pods_TXUploadVideoTool_Tests;
+			productReference = 26E3D493F1FC879DB5DFB47286E3596D /* Pods-TXUploadVideoTool_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7CBA7D59FBDE86FEE51F9E0D7C281C1C /* Pods-TXUploadVideoTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77CD3D0C721C96E07B146EB9331DBE2 /* Build configuration list for PBXNativeTarget "Pods-TXUploadVideoTool_Example" */;
+			buildPhases = (
+				03840304FB04E3EB411DA4D7D1690DBD /* Headers */,
+				1F0C3D2372A21D7A2EAED05BB0670892 /* Sources */,
+				8C6F87BE8573C8F4B6E692D3BD094FBF /* Frameworks */,
+				3BE7B68FC12C7DF10E4948A2CA1BD4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAAF24B5F3979A0165669DFFCFB1CA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-TXUploadVideoTool_Example";
+			productName = Pods_TXUploadVideoTool_Example;
+			productReference = 88D92DCBD2ACF8C5656B65A232E94A54 /* Pods-TXUploadVideoTool_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
+				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
+				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
+				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7C8E73195FC31441936A525E29DA769 /* TXUploadVideoTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C7F26D15D9EA6C293E08738926DD5B /* Build configuration list for PBXNativeTarget "TXUploadVideoTool" */;
+			buildPhases = (
+				72DCC68BB526DAA728BA0E73CF7638E0 /* Headers */,
+				A3B66AD0709D6948C271B4CDB4EB5430 /* Sources */,
+				5A4EAF5B9B26715B3723A330D0093052 /* Frameworks */,
+				EE43225C860DF5D87D3585FB4052E699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TXUploadVideoTool;
+			productName = TXUploadVideoTool;
+			productReference = 783E2AFBD07604AA06698BCAA23F488D /* TXUploadVideoTool */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 443E21DD437D462348B87D0CFD512CC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				7CBA7D59FBDE86FEE51F9E0D7C281C1C /* Pods-TXUploadVideoTool_Example */,
+				3510C05CB6B1383A4A56771AFCD5A339 /* Pods-TXUploadVideoTool_Tests */,
+				F7C8E73195FC31441936A525E29DA769 /* TXUploadVideoTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE7B68FC12C7DF10E4948A2CA1BD4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACE9ECB847DF41AC7A64470744876AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE43225C860DF5D87D3585FB4052E699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0C3D2372A21D7A2EAED05BB0670892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA1D703401B044965A3111106EAEBCB /* Pods-TXUploadVideoTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D38A2C4F35AB7C36CF335D18240356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0CCA00E720B4CF07BA3F55B02FE83B /* Pods-TXUploadVideoTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B66AD0709D6948C271B4CDB4EB5430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4F521C45674AC6882421D93A1D40F2 /* AppLocalized.m in Sources */,
+				911171411F96D34AD37A8AEB9A53EF1A /* QuicClient.m in Sources */,
+				8EF7EB0C9F0313BFC4971E6AF8F5BBAE /* TVCClient.m in Sources */,
+				DC9EFA2A0D7510CEC93FD6A48BD6A1B8 /* TVCClientInner.m in Sources */,
+				CC050BF238258B98E3256E9F3BF224C7 /* TVCCommon.m in Sources */,
+				8356354A13F9633D7FFC38DF800CB015 /* TVCHttpMessageURLProtocol.m in Sources */,
+				F01778877E7833F821DB1285079B6DCB /* TVCReport.m in Sources */,
+				17EBC84CD7F66255EFE6113F54638BF9 /* TVCUtils.m in Sources */,
+				AD3DB6600F5C5614349F3BF419232FE6 /* TXUGCPublish.m in Sources */,
+				60DA72432E442FAD3CA6814F477800B8 /* TXUGCPublishOptCenter.m in Sources */,
+				668DB8FF67256F7FF11D8C0545D13B1A /* TXUGCPublishUtil.m in Sources */,
+				E176D70DCF7C0D07D1B48662D3F5F115 /* TXUploadVideoTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
+				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
+				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
+				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
+				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
+				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
+				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
+				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
+				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2323DBBAC9484C840E99B773C5931855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TXUploadVideoTool_Example";
+			target = 7CBA7D59FBDE86FEE51F9E0D7C281C1C /* Pods-TXUploadVideoTool_Example */;
+			targetProxy = 652F3C77B28CA745D43ED1676E8DB27E /* PBXContainerItemProxy */;
+		};
+		BFAAF24B5F3979A0165669DFFCFB1CA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TXUploadVideoTool;
+			target = F7C8E73195FC31441936A525E29DA769 /* TXUploadVideoTool */;
+			targetProxy = 73F8A6A10E2404AFE9622B93F6364C29 /* PBXContainerItemProxy */;
+		};
+		FD9C7117699BB70A8C0E7331DB00BE91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = A418F4FD459F51BC3998CB3D7BEB1181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68B749A26E3828F5DB9D5F3A04CAFA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663C4FB06B17B500AFDFF2586A6FDCEB /* Pods-TXUploadVideoTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXUploadVideoTool_Tests/Pods-TXUploadVideoTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXUploadVideoTool_Tests/Pods-TXUploadVideoTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE611F334A3243891D79AC7B47033121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D198E54554117DF5AEBAE91C95126B0 /* Pods-TXUploadVideoTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXUploadVideoTool_Example/Pods-TXUploadVideoTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXUploadVideoTool_Example/Pods-TXUploadVideoTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3978B968049E2F7829A9F878590F5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7842CDFD47152F8509B9E3A0E4AAA384 /* Pods-TXUploadVideoTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXUploadVideoTool_Tests/Pods-TXUploadVideoTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXUploadVideoTool_Tests/Pods-TXUploadVideoTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAD34A8A27D23B0FBC1BC6133A054D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C000A016C0FD071D9C1F41E7493873 /* TXUploadVideoTool.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TXUploadVideoTool/TXUploadVideoTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TXUploadVideoTool/TXUploadVideoTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TXUploadVideoTool/TXUploadVideoTool.modulemap";
+				PRODUCT_MODULE_NAME = TXUploadVideoTool;
+				PRODUCT_NAME = TXUploadVideoTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDDA51DD5F960B4447D3CA1F8B0BB00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89AEBE811DE6550A7B8C60328E04EC0A /* Pods-TXUploadVideoTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXUploadVideoTool_Example/Pods-TXUploadVideoTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXUploadVideoTool_Example/Pods-TXUploadVideoTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9ADE399CE47F03B065B216739E8D793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD96CACDD53D96F6666CCE4D275382F /* TXUploadVideoTool.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TXUploadVideoTool/TXUploadVideoTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TXUploadVideoTool/TXUploadVideoTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TXUploadVideoTool/TXUploadVideoTool.modulemap";
+				PRODUCT_MODULE_NAME = TXUploadVideoTool;
+				PRODUCT_NAME = TXUploadVideoTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
+				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77CD3D0C721C96E07B146EB9331DBE2 /* Build configuration list for PBXNativeTarget "Pods-TXUploadVideoTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDA51DD5F960B4447D3CA1F8B0BB00A /* Debug */,
+				AE611F334A3243891D79AC7B47033121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E659606633573E7F515ABC34D4895191 /* Build configuration list for PBXNativeTarget "Pods-TXUploadVideoTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B749A26E3828F5DB9D5F3A04CAFA51 /* Debug */,
+				B3978B968049E2F7829A9F878590F5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C7F26D15D9EA6C293E08738926DD5B /* Build configuration list for PBXNativeTarget "TXUploadVideoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD34A8A27D23B0FBC1BC6133A054D55 /* Debug */,
+				D9ADE399CE47F03B065B216739E8D793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
