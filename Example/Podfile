@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TXUploadVideoTool_Example' do
+  pod 'TXUploadVideoTool', :path => '../'
+
+  target 'TXUploadVideoTool_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
