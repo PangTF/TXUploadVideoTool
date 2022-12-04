@@ -42,6 +42,6 @@ TODO: Add long description of the pod here.
       ss.ios.deployment_target = '9.0'
       ss.dependency 'QCloudQuic/Slim', '6.0.5'
 
-      ss.source_files = 'UIKit+AFNetworking'
+      ss.source_files = 'QCloudQuic+TXUploadVideoTool'
     end
 end
